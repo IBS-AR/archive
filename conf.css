@@ -1,0 +1,64 @@
+a { text-decoration: none;}
+table.sidemenu a:visited { color: #583af2; }
+h2 { font-weight: bold; color: #8e2323; }
+table.sidemenu a:link { color: #583af2; }
+table.sidemenu a:hover, h1 { color: #fffc05; }
+table.sidemenu td { padding: 0.6ex 1ex; font-size: 90%; }
+table.sidemenu { font-weight: bold; 
+                 font-family: helvetica, arial, "lucida console", sans-serif; 
+                 padding-top: 30px; margin-left:10px; margin-right: 10px; }
+table.maintable { background-color: #ffffff; 
+                  font-family: helvetica, arial, "lucida console", sans-serif; 
+                  margin: 0 auto; width: 760px; }
+table.maintable2 { font-size: 77%; font-family: helvetica, arial, "lucida console", sans-serif; 
+                  margin: 0 auto; width: 550px; }
+th.field { font-weight: bold; }
+table.maintable3 { font-size: 100%; font-family: helvetica, arial, "lucida console", sans-serif; 
+                  margin: 0 auto; width: 550px; }
+div.pagename { background-color: #583af2; 
+         padding: 0.2ex 2ex; margin-top: 0ex; }
+div.pagename h1 { font-size: 130%; font-weight: bold; margin: 0ex; padding: 0ex; }
+h2 { font-size: 130%; margin-bottom: -1.2ex;}
+table.themes td { padding: 0 1em 0 1em; }
+table.themes, table.fees, table.bodytable { font-size: 100%; }
+table.fees td { text-align: center; padding-right: 1ex; }
+td.banner { margin-left: 0px; margin-right: 0px;
+            padding-left: 0px; padding-right: 0px; }
+td.foot { padding-top: 0px; }
+div.text { padding-left: 2ex; padding-right: 2ex; }
+td.title { background-color: #583af2; font-size: 130%; font-weight: bold; 
+           color: #ffffff; width: 100%; }
+td.dates { background-color: #07bc07; font-size: 100%; font-weight: bold;
+           color: #ffffff; }
+td.title, td.dates { padding-left: 20px; padding-right: 20px; }
+p.maintitle { margin-bottom: 2ex; font-size: 120%; }
+p.subtitle { margin-top: 0ex; font-size: 80%; }
+body { text-align: center; background: #ffffff; color: #000000; }
+table.topbox td { margin-left: 0px; margin-right: 0px; }
+table.topbox { margin: 0px; padding: 0px; width: 100%; margin-right: -2px; }
+td.field { font-weight: bold; }
+table.guidelines { border: solid black .5pt; 
+                   border-collapse: collapse; font-size: 100%; }
+table.guidelines td { border: solid black .5pt;
+                      padding: 1ex 5.4pt 2ex 5.4pt; }
+table.guidelines td p { margin-bottom: -1ex; }
+table.submitted { font-size: 100%; margin-left: 30.2pt; 
+                  border-collapse:collapse; }
+table.submitted td { padding: 1ex 5.4pt 2ex 5.4pt; }
+.mand { color: red; }
+p.img { text-align: center; font-size: 70%; }
+p.lastupdated { text-align: left; font-size: 75%; }
+table.img { text-align: center; font-size: 70%; 
+            margin-left:0ex; margin-right: 0ex; }
+table.img td { text-align: center; padding: 0ex; margin: 0ex;}
+td.left-outer { background-image: url('images/side_bg4-fade-tile3.jpg');
+                background-repeat: repeat-y; padding: 0ex; margin: 0px; 
+                background-color: #b9d0be; width: 200px; }
+td.l-i { margin: 0px; padding: 0px; padding-bottom: 50px;
+         background-image: url('images/side_bg4-fadey2.jpg');
+         background-repeat: no-repeat; 
+         height: 648px; vertical-align: top; padding-top: 10px; }
+table.left-inner { margin: -2px; margin-right: -4px; padding: 0px; }
+table.left-inner { width: 100%; margin-right: -10px; }
+td.bodytext { font-size: 85%; padding: 0ex; padding-bottom: 30px; 
+              background-color: #c3ffca;  }

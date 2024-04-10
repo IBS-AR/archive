@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^biometrics\.org\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.biometrics\.org\.au$
+RewriteRule ^/?$ "http\:\/\/biometricsociety\.org\.au\/" [R=301,L]
+

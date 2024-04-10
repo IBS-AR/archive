@@ -1,0 +1,19 @@
+
+Presenter box:
+Mario D'Antuono
+
+Affiliation box:
+Department of Agriculture and Food, Government of Western Australia, AustraliaEmail box:
+mario.dantuono@agric.wa.gov.au
+
+Title box:
+A set of guidelines for submitting an abstract to this conference
+Coauthors box:David Baird (VSN International), Kaye Basford (University of Queensland, Australia), James Curran (Auckland University, New Zealand)and Ian Marschner (Macquarie University, Australia)Abstract box:This is an example of an abstract for the Kiama 2011 conference called Biometrics by the Blowholes.
+It should be not more than 300 words and can include any references and equations in the body of the text.  We request that you follow the standards as per abstracts as in the Biometrics and JABES journals. 
+You can give a reference in the text such as Gilbert, Bosch, and Hudgens (2003, \emph{Biometrics} \textbf{59}, 531-541).
+Notice the use of standard LaTeX. If you have an equation then this can also be used$$y = \alpha + \beta x + \epsilon$$Note that the preview of your abstract with Atlas Conferences program depends on the browser you are using on your computer. 
+So it may show a, b and e for the Greek letters. But the final abstract will show the correct Greek letters.If you have co-authors then a separate input box is provided. You can show affiliations if you like as with this example.The abstract should be in English and provide enough information for the scientific programme committee to be able to make a 
+fair decision to allocate it a place as an oral or a poster presentation. The abstracts from the invited speakers will also be posted to the Atlas repository. 
+Please note that there is a box to indicate whether you want it to be considered for a talk or a poster. All abstracts should be submitted by August 31, 2011. If you have any queries or difficulties, 
+please email us at abstracts@biometrics.org.au with a copy of the proposed abstract in PDF format 
+so we can see what it is the intended appearance. You can also add keywords in the abstract such as this example.Key words: EM algorithm; Errors-in-variables

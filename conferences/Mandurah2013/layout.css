@@ -1,0 +1,545 @@
+html
+{
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+
+body
+{
+   	height: 100%;
+   	margin-bottom: 2px;
+    font-family : Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size : .9em;
+    font-weight : normal;
+    color : Black;
+    background-color : #FFFFFF;
+    margin : 0px;
+    padding: 0;
+    line-height : 1.2em;
+    overflow: auto;
+    
+}
+
+div.wrapper {
+	border: 2px;
+	margin: 0px auto;
+	width: 72%;
+	right: 14%;
+	position : absolute;
+	background-color : yellow;
+}
+
+
+/* Dividers */
+
+
+div.headerMain
+{
+    position : absolute;
+    /*left : 10px;*/
+    top : 10px;
+/*    width: 734px;*/
+	width: 744px;
+    padding-left : 0px;
+    background-color : transparent;
+    background-repeat : no-repeat;
+    height : 167px;
+    z-index: 1;
+}
+div.spacer1
+{
+    position : absolute;
+    /*left : 10px;*/
+    top : 772px;
+    padding-left : 0px;
+    background-color : blue;
+    background-repeat : no-repeat;
+    z-index: 1;
+}
+
+
+/* Main BODY*/
+
+div.bodyArea{
+    position: absolute;
+    /*top : 200px;*/
+    top:183px;
+    text-align : left;
+/*    width: 768px;*/
+	width: 734px;
+    background-color: white;
+    /*background-color: red;*/
+}
+
+
+div.bodyArea img 
+{
+	display:block;
+}
+
+/* MENU ATTRIBUTES */
+
+
+div.menuArea
+{
+    position : absolute;
+    /*left : 10px;*/
+    /*top : 170px;*/
+    float: left;
+    text-align : left;
+    font-size : 12px;
+    line-height : 20px;
+    padding-left : 0px;
+    color: white;
+    width: 160px;
+    background-color : #193666;
+/*background-color: #87A0FF;*/
+    background-repeat : repeat;
+    height : 150px;
+    padding: 0px;
+
+	min-height: 100%;
+}
+
+
+div.menubutton {
+    float: left;
+    color: white;
+    text-indent : 10px;
+    /*background-color : #339966;
+    background-color: #87A0FF;*/ 
+    background-color: #0061FF; 
+    width: 160px;
+
+}
+
+/* Small menu buttons -> indented */
+div.menubutton2
+{
+
+	float: left;
+    color: white;
+    font-size : 11px;
+    text-indent: 20px;
+    /*text-indent : 10px;*/
+    /*background-color : #339966;*/
+    background-color: #87A0FF;
+    width: 160px;   
+    
+/*	margin: none;*/
+	border: 0;
+	padding: 0;
+
+}
+
+div.menubutton3
+{
+
+	float: left;
+    color: white;
+    font-size : 11px;
+    text-indent: 30px;
+    background-color: #87A0FF;
+    width: 160px;   
+    
+	/*margin: none;*/
+	border: 0;
+	padding: 0;
+
+}
+
+div.buttonWebmaster
+{
+
+	float: left;
+    color: white;
+    font-size : 10px;
+    text-indent: 10px;
+/*    background-color: #87A0FF;*/
+    background-color: #0061FF;
+    width: 160px;   
+    
+	/*margin: none;*/
+	border: 0;
+	padding: 0;
+
+}
+
+/* mouse over - menu */
+
+div.menuArea a:link
+{
+    font-weight: bold;
+    color: White;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color : transparent;
+
+}
+
+div.menuArea a:visited
+{
+
+    font-weight: bold;
+    color: White;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color : transparent;
+}
+
+div.menuArea a:hover
+{
+    font-weight: bold;
+    color: White;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    background-color : #7BB2B9;
+}
+
+/* END MENU ATTRIBUTES */
+
+
+
+/* CONTENT AREA */
+
+div.contentArea
+{
+    position : absolute;
+    left : 165px;
+    /*top : 170px;*/
+    /*float: right;*/
+    width : 570px;
+    color: black;
+    /*background-color : #B1D1A8;*/
+    /*background-color: #C5F3B9;*/ /*pale green*/
+    background-color: #bbccdd; /* to NOT match light blue in IBS logo */
+}
+
+div.contentAreaWhite
+{
+    position : absolute;
+    left : 165px;
+    /*top : 170px;*/
+    /*float: right;*/
+    width : 570px;
+    color: black;
+    /*background-color : #B1D1A8;*/
+    /*background-color: #C5F3B9;*/ /*pale green*/
+    background-color: #ffffff; /* to NOT match light blue in IBS logo */
+}
+
+/* DIV for IMAGES IN CONTENT AREA*/
+div.contentIMG
+{
+	position: relative;
+/*    left : 165px;*/
+    width : 570px;
+    background-color: #C5F3B9;
+}
+
+div.webmaster
+{
+	padding: 0px;
+	position: relative;
+	text-align: center;
+	width: 570px;
+	background-color: white;
+}
+
+div.p
+{
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align:justify;
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+}
+
+/*
+div.contents{
+    position : absolute;
+    left : 177px;
+    top : 170px;
+    width : 535px;
+    vertical-align: bottom;
+    color: black;
+    background-color : white;
+}
+*/
+/* FONT STUFF */
+p
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:justify;
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+}
+
+p.table
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align:justify;
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+
+}
+
+p.center
+{
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align:center;
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+
+}
+
+
+
+p.small
+{
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align:justify;
+    font-family: arial;
+    font-size: 12px;
+    color: black;
+
+}
+
+p.update
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:justify;
+    font-family: arial;
+    font-size: 10px;
+    color: black;
+}
+
+p.webmaster
+{
+    text-align:center;
+    font-family: arial;
+    font-size: 10px;
+	text-decoration: none;
+}
+
+p a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    padding-right: 15px;
+}
+
+ul a
+{
+	text-decoration: none;
+}
+
+
+ul.names
+{
+	padding-right: 15px;
+	list-style-type: none;
+}
+
+ol
+{
+	padding-right: 15px;
+}
+
+ul
+{
+	padding-right: 15px;
+}
+
+
+
+h1
+{
+    font-size: 2em;
+    padding-left: 15px;
+    padding-top: 0px;
+	color: #060B49;
+    /*color: #360036;*/
+    line-height: 1.5em;
+    font-weight : bold;
+}
+
+h2
+{
+    font-size: 1.2em;
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+    font-weight : bold;
+}
+
+h2.impt
+{
+    font-size: 1.2em;
+    padding-top: 15px;
+    text-align: center;
+    color: #940202;
+    font-weight : bold;
+}
+
+
+h3
+{
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: #3F3F7E;
+    font-weight : bold;
+}
+
+h4
+{
+    font-size: 1em;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: black;
+    font-weight : bold;
+}
+
+/* REGISTRATION BUTTON */
+.submitBtn
+{
+	border-right: thin;
+	border-left: thin;
+	font-family: Verdana;
+	font-weight: bold;
+	font-style: bold;
+	font-size: 10pt;
+	color: black;
+}
+
+
+/* TABLE */
+.rightAlgn
+{
+	text-align: right;
+}
+
+.registration
+{
+	color: #3F3F7E;
+	text-align: left;
+	font-weight: bold;
+}
+
+
+table.norm
+{
+	padding: 0px;
+	border-style: none;
+}
+
+table.main
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	/*padding: 10px;*/
+}
+
+td
+{	
+	font-family: arial;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+td.yellow{
+	font-family: arial;
+	padding: 0px;
+	background-color: #FFF689;
+}
+
+td.green
+{
+	font-family: arial;
+	padding: 0px;
+	background-color: #B5FF89;
+}
+
+td.blue
+{
+	font-family: arial;
+	padding: 0px;
+	background-color: #E2CBFF;
+}
+
+caption
+{
+    caption-side: bottom;
+	color: #646464;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
+hr{
+	width: 50%;
+	text-align: center;
+}
+
+/* SET PAGE TO TOP */
+div.top
+{
+	text-align: right;
+	text-decoration: underline;
+}
+/* Javascript warning tag thingy*/
+#noscript-bg{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:black;
+	-moz-opacity:.7;opacity:.7;
+	z-index:9999;
+}
+
+#noscript-text{
+	position:absolute;
+	color:white;
+	text-align:center;
+	left:0;
+	width:100%;
+	top:30%;
+	font-size:18px;
+	line-height:1.5em;
+	z-index:10000;
+	padding-top:70px;
+}
+
+#noscript-text b{
+	font-size:22px;
+	color: white;
+}
+
+#noscript-text a{
+	color: yellow;
+}
+
+
